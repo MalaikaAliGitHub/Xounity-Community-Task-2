@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 20px;
+           
+        }
+        .card{
+            height: 30vh;
+           
+            width: 400px;
+            padding-bottom: 100px;
+           
+
+        
+        }
+        .card img{
+            width: 100%;
+            border-radius: 80px;
+        }
+        .card a{
+           text-decoration: none;
+           color: white;
+
+        }
+        .card button{
+            background-color: black;
+            padding: 10px;
+          margin-left: 120px;
+          margin-top: 20px;
+           
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+   <center><h1>Image  Gallery</h1></center> 
+    <br><br>
+    <div class="container">
+        <div class="card">
+            <img src="https://cdn.mos.cms.futurecdn.net/HjFE8NKWuCmgfHCcndJ3rK-1200-80.jpg" alt="The Zebra Pic Standing in Green Ground">
+            <button><a href="https://unsplash.com/s/photos/zebra">Discover More</a></button>
+
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtr22xSuc9p6lt-bzE5qkdFfY-l7SLyBC2gQ&s" alt="Clock Pic">
+            <button><a href="https://unsplash.com/s/photos/clock">Discover More</a></button>
+
+        </div>
+
+        <div class="card">
+            <img src="https://www.shutterstock.com/image-photo/stylish-womens-brown-handbag-trendy-260nw-2143560027.jpg" alt="The bag Pic">
+            <button><a href="https://unsplash.com/s/photos/bag">Discover More</a></button>
+
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wsx_w5qb1u71Q25DnFu_PK-0RCBGp1nBxQ&s" alt="The Shoes Pic">
+            <button><a href="https://unsplash.com/s/photos/shoes">Discover More</a></button>
+
+        </div>
+    </div>
+</body>
+</html>
